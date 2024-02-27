@@ -1,0 +1,42 @@
+
+#boton_perro{
+    background-color: black;
+    color: rgb(223, 161, 45);
+}
+
+#boton_perro:hover{
+    background-color: rgb(223, 161, 45);
+    color: black;
+}
+
+#boton_huron{
+    background-color: darkgray;
+    color: red;
+}
+
+#boton_huron:hover{
+    background-color: red;
+    color: darkgray;
+}
+
+#boton_gato{
+    background-color: blue;
+    color: sandybrown;
+}
+
+#boton_gato:hover{
+    background-color: sandybrown;
+    color: blue;
+}
+
+#boton_cuyo{
+    background-color: rgb(235, 125, 143);
+    color: black;
+    border-color: black;
+}
+
+#boton_cuyo:hover{
+    background-color: black;
+    color: rgb(235, 125, 143);
+    border-color: pink;
+}
