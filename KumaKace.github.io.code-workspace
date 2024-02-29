@@ -3,7 +3,12 @@
 		{
 			"name": "KumaKace.github.io",
 			"path": "."
+		},
+		{
+			"path": "../Examen-Kevin-Villagrana"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Examen-Kevin-Villagrana"
+	}
 }

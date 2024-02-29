@@ -1,0 +1,49 @@
+#comandos{
+    background-color: black;
+    color: lime;
+}
+
+#boton_suse{
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+#boton_suse:hover{
+    background-color: white;
+    color: green;
+    border-color: green;
+}
+
+#boton_redhat{
+    background-color: red;
+    color: black;
+    border-color: red;
+}
+#boton_redhat:hover{
+    background-color: black;
+    color:red;
+    border-color: red;
+}
+
+#boton_debian{
+    background-color: rgb(222, 55, 55);
+    color: white;
+    border-color: rgb(222, 55, 55);
+}
+#boton_debian:hover{
+    background-color: white;
+    color:  rgb(222, 55, 55);
+    border-color:  rgb(222, 55, 55);
+}
+
+#boton_xubuntu{
+    color: white;
+    background-color: darkblue;
+    border-color: darkblue;
+
+}
+#boton_xubuntu:hover{
+    color: darkblue;
+    background-color: white;
+    border-color: darkblue;
+}

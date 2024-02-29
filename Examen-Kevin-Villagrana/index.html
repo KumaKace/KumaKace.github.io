@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/estilo.css">
+   </head>
+<body>
+    <div class="container mt-5 border border-primary border-5"  >
+        <div class="row">
+            <div class="col">
+                <img src="https://www.idc-latinamerica.com/sites/default/files/2021-07/UACJ%20Logo.png" class="img-fluid" alt="..." width="200px">
+                <h3>Universidad Autonoma de Ciudad Juarez</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://cimav.edu.mx/wp-content/uploads/2017/02/iit-uacj.jpg" class="img-fluid" alt="..." width="200px">
+                <h3>Instituto de Ingenieria y Tecnologia</h3>
+                <h3>Clase: Sistemas operativos</h3>
+                <h3>Alumno: Kevin Francisco Villagrana Escarcega</h3>
+            </div> 
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h5>Listar carpetas y documentos:</h5>
+                <p id="comandos">-ls</p>
+                <p>es el comando es el comando utilizado para visualizar todo sin orden</p>
+                <p>el comando <p id="comandos">ls -l</p> es utilizado para mostrar los doscumentos con informacion extra como permisos </p>
+                <p>el comando ls <p id="comandos">ls -a</p> es utilizado para mostrar todos los documentos,incluidos los documentos ocultos en el sistema </p>
+
+            </div>
+            <div class="col">
+                <h3>Comando para crear un documento</h3>
+                <p id="comandos">touch "nombre del archivo"."la extencion"</p>
+                <h3>Comando para crear un directorio</h3>
+                <p id="comandos">mkdir "nombre del directorio"</p>
+            </div>
+            <div class="col">
+                <h3>Comando para eliminar un documento</h3>
+                <p id="comandos">rm "nombre del archivo coextension"</p>
+                <h3>Comando para eliminarun directorio</h3>
+                <p id="comandos">rm -r "nombre del directorio"</p>
+                <p>Este eliminara el directorio con todo y su contenido</p>
+            </div>
+            <div class="col">
+                <h3>Comando para modificar un documento con nano</h3>
+                <p id="comandos">nano "nombre del archivo"</p><p>con este comando se abre un archico en nano</p>
+                <h3>Cómo se guardan cambios</h3>
+                <p id="comandos">ctrl + o</p>
+                <p>es el comando utilizado para cuardar los cambios echos al documento</p>
+                <h3>Cómo se cierra el editor</h3>
+                <p id="comandos">ctrl + x</p>
+                <p>es el comando utilizado para salir de nano</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="https://brand.suse.com/assets/img/brand/block-logo-big.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Suse</h5>
+                      <p class="card-text">SUSE Linux es una de las distribuciones Linux más antiguas existentes. Basada en sus orígenes en Slackware y luego en Jurix.</p>
+                      <a id="boton_suse" href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>                  
+            </div>
+            <div class="col">
+                <div class="card" >
+                    <img src="https://th.bing.com/th/id/R.e32813ce74fd1860348976e44e808c86?rik=aUUSc7BawpAxIw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Redhat</h5>
+                      <p class="card-text">Red Hat, Inc. es una multinacional estadounidense de software que provee software de código abierto principalmente a empresas.</p>
+                      <a id="boton_redhat" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>                  
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/debian-512.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Debian</h5>
+                      <p class="card-text">Debian GNU/Linux es un sistema operativo libre, desarrollado por miles de voluntarios de todo el mundo, que colaboran a través de Internet.</p>
+                      <a id="boton_debian" href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>                  
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://freesvg.org/img/Xubuntu-logo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Xubuntu</h5>
+                      <p class="card-text">Xubuntu es una distribución Linux basada en Ubuntu. Está mantenida por la comunidad y es un derivado de Ubuntu.</p>
+                      <a id="boton_xubuntu" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>                  
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
