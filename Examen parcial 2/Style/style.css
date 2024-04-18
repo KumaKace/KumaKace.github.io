@@ -1,0 +1,12 @@
+#cuerpo{
+    background-color: WhiteSmoke;
+}
+#Informacion{
+    background-color: lightblue;
+    color: gray;
+    border: 5rem;
+}
+#parrafo{
+    color: black;
+    font-size: 10;
+}
